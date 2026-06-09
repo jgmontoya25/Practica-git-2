@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Alta</title>
+</head>
+<body>
+    <table class="nav" border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <td><a href="index.html">Inicio</a></td>
+            <td><a href="alta.html">Alta</a></td>
+            <td><a href="agregar.html">Agregar</a></td>
+            <td><a href="somos.html">Somos</a></td>
+            <td><a href="visitanos.html">Visitanos</a></td>
+        </tr>
+    </table>
+    <div class="container">
+        <div class="header">
+            <h1>Registrate en este sitio</h1>
+        </div>
+        <div class="content">
+        <form action="alta.php" method="post">
+            <label for="nombre">Nombre:</label><br><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="email">Email:</label><br><br>
+            <input type="email" id="email" name="email" required><br><br>
+        </form>
+        </div>
+        <div class="footer">
+            <button type="submit">Registrar</button>
+        </div>
+    </div>
+</body>
+</html>

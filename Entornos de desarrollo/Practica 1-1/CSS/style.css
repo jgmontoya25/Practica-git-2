@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formulario{
+    width: 400px;
+    background-color: rgb(68, 1, 131);
+    padding: 70px;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 30px;
+    border: 2px solid rgb(50, 121, 214);
+}
+.control{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 900px;
+    border: 2px solid rgb(50, 121, 214);
+}
